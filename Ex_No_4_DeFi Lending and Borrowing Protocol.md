@@ -25,7 +25,7 @@ If collateral < liquidation threshold, liquidators can repay the borrower's debt
 
 
 
-Program:
+# Program:
 ```
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.20;
@@ -74,24 +74,27 @@ contract DeFiLending {
 
 ```
 # Expected Output:
-Users can deposit ETH and earn interest.
+1.Users can deposit ETH and earn interest.
 
 
-Users can borrow ETH by providing collateral.
+2.Users can borrow ETH by providing collateral.
 
 
-If collateral < 150% of borrowed amount, liquidators can seize the collateral.
+3.If collateral < 150% of borrowed amount, liquidators can seize the collateral.
 
 
 
 # High-Level Overview:
-Teaches key DeFi concepts: lending, borrowing, collateral, liquidation.
+1.Teaches key DeFi concepts: lending, borrowing, collateral, liquidation.
 
 
-Introduces risk management: overcollateralization and liquidation.
+2.Introduces risk management: overcollateralization and liquidation.
 
 
-Directly related to DeFi protocols like Aave and Compound.
+3.Directly related to DeFi protocols like Aave and Compound.
 
+# OUTPUT:
+![alt text](<Screenshot 2025-04-24 123736.png>)
+![alt text](<Screenshot 2025-04-24 124414.png>)
 # RESULT : 
-
+Thus, a DeFi Lending and Borrowing Protocol has been successfully built and implenmented on Remix - Ethereum IDE
