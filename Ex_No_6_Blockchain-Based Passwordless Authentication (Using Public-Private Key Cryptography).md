@@ -41,23 +41,30 @@ contract PasswordlessAuth {
 ```
 
 # Expected Output:
-Users can register without a password.
+1.Users can register without a password.
 
 
-Users sign a challenge with their private key for authentication.
+2.Users sign a challenge with their private key for authentication.
 
 
-The smart contract verifies signatures to confirm identity.
+3.The smart contract verifies signatures to confirm identity.
 
 
 
 # High-Level Overview:
-Eliminates password hacks & phishing attacks.
+1.Eliminates password hacks & phishing attacks.
 
 
-Uses Ethereum's built-in cryptographic functions.
+2.Uses Ethereum's built-in cryptographic functions.
 
 
-Inspired by Web3 login solutions like MetaMask authentication.
+3.Inspired by Web3 login solutions like MetaMask authentication.
 
+# OUTPUT:
+![alt text](<Screenshot 2025-04-28 144106.png>)
+![alt text](<Screenshot 2025-04-28 144432.png>)
+![alt text](<Screenshot 2025-04-28 145143.png>)
+![alt text](<Screenshot 2025-04-28 144747.png>)
+![alt text](<Screenshot 2025-04-28 144946.png>)
 # RESULT: 
+Thus, a Blockchain-Based Passwordless Authentication has been successfully built and implemented on Remix - Ethereum IDE.
