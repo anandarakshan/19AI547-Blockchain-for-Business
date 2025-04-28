@@ -94,7 +94,13 @@ contract DeFiLending {
 3.Directly related to DeFi protocols like Aave and Compound.
 
 # OUTPUT:
-![alt text](<Screenshot 2025-04-24 123736.png>)
-![alt text](<Screenshot 2025-04-24 124414.png>)
+### Deploy:
+![alt text](<Screenshot 2025-04-28 140112.png>)
+### Deposit:
+![alt text](<Screenshot 2025-04-28 142127.png>)
+### Borrow:
+![alt text](<Screenshot 2025-04-28 142148.png>)
+### Collateral:
+![alt text](<Screenshot 2025-04-28 142217.png>)
 # RESULT : 
 Thus, a DeFi Lending and Borrowing Protocol has been successfully built and implenmented on Remix - Ethereum IDE
