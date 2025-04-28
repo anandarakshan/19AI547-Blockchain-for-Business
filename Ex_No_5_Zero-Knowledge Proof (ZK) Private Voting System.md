@@ -77,7 +77,11 @@ contract ZKVoting {
 3.Mimics real-world ZK voting applications in governance and DAOs.
 
 # OUTPUT:
+## output for deploy:
 ![alt text](<Screenshot 2025-04-23 093931.png>)
+## For True:
 ![alt text](<Screenshot 2025-04-23 093759.png>)
+## For False:
 ![alt text](<Screenshot 2025-04-23 093837.png>)
 # RESULT: 
+The Experiment have been successfully verified
