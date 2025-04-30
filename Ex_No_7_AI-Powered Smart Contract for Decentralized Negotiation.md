@@ -92,15 +92,12 @@ contract AIPoweredNegotiation {
 ```
 
 # Expected Output:
-Buyers submit offers, and the contract auto-negotiates the price.
 
+Buyers submit offers, and the contract auto-negotiates the price.
 
 If the buyer’s offer is fair, the deal is executed.
 
-
 If the offer is too low, the contract suggests a counteroffer.
-
-
 
 # High-Level Overview:
 First-of-its-kind AI-powered pricing contract.
@@ -113,7 +110,10 @@ Can be extended to AI oracles for real-time market data.
 
 
 Inspired by AI-enhanced commerce and eBay-like decentralized auctions.
-
+# OUTPUT:
+![alt text](<Screenshot 2025-04-30 084231.png>)
+![alt text](<Screenshot 2025-04-30 085340.png>)
+![alt text](<Screenshot 2025-04-30 090350.png>)
+![alt text](<Screenshot 2025-04-30 085514.png>)
 # RESULT:
-
-
+Thus, a AI-Powered Smart Contract for Decentralized Negotiation has been successfully built and implemented on Remix - Ethereum IDE.
