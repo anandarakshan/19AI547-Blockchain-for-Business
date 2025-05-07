@@ -1,17 +1,29 @@
 # Aim:
 To develop a smart contract that tracks the supply chain of luxury goods, ensuring authenticity.
 # Algorithm:
-1.The manufacturer records product creation details on-chain.
+Step 1:
+Manufacturer inputs productId and name, and registers the product if it's not already registered.
 
+Step 2:
+Contract stores the product with name, msg.sender as currentOwner, and sets verified = true.
 
-2.The product moves through different supply chain checkpoints.
+Step 3:
+For ownership transfer, contract checks if msg.sender is the current owner of the product.
 
+Step 4:
+If valid, contract updates currentOwner to the new owner's address and emits an event.
 
-3.The ownership of the product can be transferred securely.
+Step 5:
+Repeat the ownership transfer at each supply chain checkpoint by authorized parties.
 
+Step 6:
+Buyer or verifier inputs productId to retrieve product details from the smart contract.
 
-4.Buyers can verify the product’s authenticity.
+Step 7:
+Contract returns the product’s name, currentOwner, and verified status for authenticity check.
 
+Step 8:
+All actions (registration and transfers) are permanently recorded on-chain for transparency and trust.
 
 # Program:
 ```
